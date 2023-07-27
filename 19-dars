@@ -1,0 +1,14 @@
+let obj =  [{
+    "name":"Abdulaziz",
+    "age": 19 },
+    {"name": "Aziz",
+    "age": 15 },
+    { "name":"Ali",
+       "age": 12}
+
+]
+for(i=0; i< obj.length; i++){
+    obj.sort((a,b) => a.age - b.age)
+   }
+
+console.log(obj)
